@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/proj.css">
+    <title>LézardPad</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <header>
+            <h1> <a href="../index.html"> LZRD∙WORKS </a> </h1>
+            <h2> Sous-Titre </h2>
+        </header>
+        <div>
+            <a href="../index.html"> <img id="logo" src="../img/logo.png" /> </a>
+        </div>
+        <nav>
+            <div>
+                <span> <a href="../projects.html"> Projects </a> </span>
+                <span> <a href="http://www.twitch.tv/luzeraideuh" target="_blank"> Streaming </a> </span>
+                <span> <a href="../pokecards.html"> Pokecards </a> </span>
+                <span> <a @href="../minecraft.html"> Minecraft </a></span>
+            </div>
+        </nav>
+        <nav id="logos">
+            <div>
+                <span class="navlogos"> <a href="http://www.twitter.com/Luzerred" target="_blank"> <img class="social"
+                            span src="../img/socials/twitter_icon.png" /> </a> </span>
+                <span class="navlogos"> <a href="http://www.instagram.com/luzerred" target="_blank"> <img class="social"
+                            src="../img/socials/instagram_icon.png" /> </a> </span>
+                <span class="navlogos"> <a href="https://discord.gg/gu5r9YuTzk" target="_blank"> <img class="social"
+                            src="../img/socials/discord_icon.png" /> </a> </span>
+                <span class="navlogos"> <a href="mailto:luzerred@protonmail.com" target="_blank"> <img class="social"
+                            src="../img/socials/mail_icon.png" /> </a> </span>
+            </div>
+        </nav>
+        <footer>
+            <span> 2021 &copy; LZRD </span>
+        </footer>
+    </div>
+
+    <a href="javascript:void(0)" class="openbtn" onclick="openNav()">&plusmn;</a>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "300px";
+            document.getElementById("main").style.marginLeft = "300px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+
+<div id="main">
+
+    <div id="titre">
+      <h3>LézardPad V1</h3>
+      <span>3x3 Macropad</span>
+    </div>
+
+    <div class="gauche">
+        <img src="../img/holder.png" width="30%" style="border-radius:5%;"/>
+        <span> Dimensions :</span> 
+        <span style="margin-left: 1em;">X - 88.1mm <br/> Y - 57.2mm <br/> Z - 1.6xmm </span>
+        <div>Le LézardPad Ver.1. est un macropad de 3x3 touches compatibles 3-pin Switches.</div>
+    </div>
+
+</body>
+
+</html>
